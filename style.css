@@ -1,0 +1,276 @@
+/*    default design     */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+
+}
+body{
+    padding: 35px 10rem;
+    width: 100%;
+    height: auto;
+    background-color: #f4f1f1;
+}
+
+/*    header design       */
+header{
+    width: 100%;
+    height: auto;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar button{
+    border: 1px solid #026C58;
+    padding: 10px 20px;
+    background: none;
+    color: #026C58;
+    border-radius: 4px;
+}
+.header-content{
+    width: 1200px;
+    height: auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 0;
+    padding: 24px 80px 24px 80px;
+}
+.header-content h1{
+    margin-top: 40px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: #026C58;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+}
+.header-content img{
+    width: 420px;
+}
+/*    pillar design    */
+.pillar-container {
+    margin: 3rem 0;
+}
+.pillar-container .pillar-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.pillar-container .pillar-box .box{
+    width: 280px;
+    height: auto;
+    background-color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+.pillar-container .pillar-box .box h2{
+    margin: 10px 0;
+}
+/*      vision design     */
+.vision-container{
+    margin-top: 5rem;
+}
+.vision-container .vision-text p{
+    margin: 1rem 0;
+}
+.vision-container .box{
+    width: 380px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 14px;
+
+}
+.vision-container .vision-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.vision-container .vision-box .box-one{
+    background-color: #D5E1F5;
+}
+.vision-container .vision-box .box-two{
+    background-color: #C6E4D6;
+}
+.vision-container .vision-box .box-three{
+    background-color: #F7EBCF;
+}
+.vision-box p{
+    margin: 1rem 0;
+}
+.vision-box h2{
+    margin: 1rem 0;
+}
+.btn{
+    padding: 14px 25px;
+    color: aliceblue;
+    border: none;
+}
+.box-one .btn{
+    background-color: #5091F6;
+}
+.box-two .btn{
+    background-color: #09A15C;
+}
+.box-three .btn{
+    background-color: #FFC239;
+}
+.description-box{
+    width: 1200px;
+    height: auto;
+    background-color: aliceblue;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 9px;
+}
+.opinion-container{
+    margin: 4rem 0;
+}
+.question-container{
+    width: 1200px;
+    height: auto;
+    background-color: aliceblue;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 18px;
+}
+
+.questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15px;
+    background-color: #C6E4D6;
+    border: 1px solid #8d8989;
+}
+.question-box p{
+    font-weight: 600;
+}
+.question-box{
+    padding: 1rem;
+    border: 1px solid #8d8989;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-box h4{
+    border-left: 2px solid #8d8989;
+    padding: 18px 10px;
+    background-color: #C6E4D6;
+}
+/*     news container design     */
+.news-container{
+    margin: 5rem 0;
+}
+.news-content-box{
+    margin: 3rem 0;
+}
+.news-box{
+    width: 100%;
+    background-color: aliceblue;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.news-box .satelite{
+    width: 330px;
+    border-radius: 10px;
+}
+.news-box .news-content{
+    padding: 0 2rem;
+}
+.news-box img, p{
+    margin: 7px 0;
+}
+/*    donate container     */
+.donate-container{
+    margin: 4rem 0;
+    text-align: center;
+}
+.donate-container .button-child{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15rem;
+    margin: 2rem 0;
+}
+
+.donate-container .button-child button{
+    border: none;
+    background-color: aliceblue;
+    color: #333;
+    margin: 0 .4rem;
+    width: 170px;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+.donate-container input{
+    width: 55%;
+    text-align: center;
+    padding: 1rem 0;
+    border: none;
+}
+/*    Newsletter design     */
+.newsletter-container
+{
+    width: 100%;
+    height: auto;
+    background-color: #C6E4D6;
+    padding: 3rem;
+    text-align: center;
+}
+.newsletter-container p{
+    margin: 1rem 0;
+}
+.newsletter-container input {
+    width: 55%;
+    padding: .9rem 1rem;
+    background-color: aliceblue;
+    border: none;
+}
+.newsletter-container .btn{
+  border-radius: 0;
+}
+.social-media
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+}
+.social-media img{
+    padding: 0 1rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
